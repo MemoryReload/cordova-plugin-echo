@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-echo",
+  "version": "1.0.0",
+  "description": "Cordova Echo Plugin",
+  "cordova": {
+    "id": "cordova-plugin-echo",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.cordova-plugin-echo.git"
+  },
+  "keywords": [
+    "cordova",
+    "console",
+    "echo",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Neal Marlin",
+  "license": "Apache License 2.0"
+}
