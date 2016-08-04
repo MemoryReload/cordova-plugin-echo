@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-echo" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-hpecho" version="1.0.0">
   <name>echo</name>
   <description>Cordova Echo Plugin</description>
   <keywords>cordova,console,echo</keywords>

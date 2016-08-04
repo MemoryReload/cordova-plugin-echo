@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-echo",
+  "name": "cordova-plugin-hpecho",
   "version": "1.0.0",
   "description": "Cordova Echo Plugin",
   "cordova": {
-    "id": "cordova-plugin-echo",
+    "id": "cordova-plugin-hpecho",
     "platforms": [
       "ios"
     ]
@@ -15,7 +15,7 @@
   "keywords": [
     "cordova",
     "console",
-    "echo",
+    "hpecho",
     "ecosystem:cordova",
     "cordova-ios"
   ],
