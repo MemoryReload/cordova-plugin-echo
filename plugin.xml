@@ -3,9 +3,11 @@
   <name>echo</name>
   <description>Cordova Echo Plugin</description>
   <keywords>cordova,console,echo</keywords>
+
   <js-module src="www/echo.js" name="echo">
     <clobbers target="echo"/>
   </js-module>
+
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
       <feature name="Echo">
@@ -15,4 +17,16 @@
     <header-file src="src/ios/CDVEcho.h"/>
     <source-file src="src/ios/CDVEcho.m"/>
   </platform>
+
+  <platform name="browser">
+    <config-file target="config.xml" parent="/*">
+      <feature name="Echo">
+        <param name="browser-package" value="echoProxy"/>
+      </feature>
+    </config-file>
+    <js-module src="src/browser/echoProxy.js" name="echoProxy">
+      <run/>
+    </js-module>
+  </platform>
+
 </plugin>
