@@ -25,7 +25,7 @@
       </feature>
     </config-file>
     <js-module src="src/browser/echoProxy.js" name="echoProxy">
-      <run/>
+      <runs/>
     </js-module>
   </platform>
 
